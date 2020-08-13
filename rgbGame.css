@@ -1,0 +1,75 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    background-color: #232323;
+    margin: 0;
+}
+
+button {
+    height: 100%;
+    border: none;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    background: none;
+    outline: none;
+    color: #232323;
+    transition: all 0.25s;
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+}
+
+button:hover {
+    color: white;
+    background: #232323;
+}
+
+h1 {
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    background-color: #232323;
+}
+
+#bar {
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+#container {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#intro {
+    padding: 12px;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+}
+
+#msgDisplay {
+    display: inline-block;
+    width: 15%;
+}
+
+.selected {
+    color: white;
+    background-color: #232323;
+}
+
+.square {
+    width: 30%;
+    border-radius: 25px;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    transition: background 0.2s;
+    -webkit-transition: background 0.2s;
+    -moz-transition: background 0.2s;
+}
